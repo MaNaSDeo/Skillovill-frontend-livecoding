@@ -1,0 +1,27 @@
+.card {
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.question {
+  text-align: center;
+  margin: 30px;
+  font-size: 28px;
+  text-wrap: wrap;
+  font-weight: 600;
+}
+.submitBtn {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
